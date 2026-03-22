@@ -1124,35 +1124,6 @@ ul { list-style: none; }
   .section-label { font-size: 0.72rem; }
 }
 
-/* =======================================
-   IMAGE PERFORMANCE
-======================================= */
-/* Shimmer placeholder while any image is loading */
-img {
-  background: linear-gradient(
-    90deg,
-    var(--surface) 25%,
-    var(--bg-alt)  50%,
-    var(--surface) 75%
-  );
-  background-size: 200% 100%;
-  animation: shimmer 1.4s ease infinite;
-}
-/* Stop shimmer once loaded */
-img.loaded {
-  background: none;
-  animation: none;
-}
-@keyframes shimmer {
-  from { background-position: 200% 0; }
-  to   { background-position: -200% 0; }
-}
-
-/* Prevent layout shift — card images reserve space before load */
-.card-image img {
-  content-visibility: auto;
-}
-
 /* ============================================
    PROJECT DETAIL PAGE CSS
    ============================================ */
