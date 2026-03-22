@@ -94,10 +94,11 @@ function updateActiveNavLink() {
 
 
 // ─── 6. DARK MODE TOGGLE ───────────────────────────────
+// Toggles between light and dark theme and saves preference
 const themeToggle = document.getElementById("themeToggle");
 const themeIcon = themeToggle.querySelector(".theme-icon");
 const html = document.documentElement;
- 
+
 // SVG icons for sun and moon
 const ICONS = {
   sun: `<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
@@ -117,12 +118,12 @@ const ICONS = {
     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
   </svg>`,
 };
- 
+
 // Load saved preference from localStorage — defaults to dark
 const savedTheme = localStorage.getItem("theme") || "dark";
 html.setAttribute("data-theme", savedTheme);
 themeIcon.innerHTML = savedTheme === "dark" ? ICONS.sun : ICONS.moon;
- 
+
 themeToggle.addEventListener("click", () => {
   const current = html.getAttribute("data-theme");
   const next = current === "dark" ? "light" : "dark";
@@ -164,7 +165,7 @@ filterBtns.forEach((btn) => {
 // ─── 8. SCROLL REVEAL ANIMATIONS ──────────────────────
 // Elements with class "reveal" or "reveal-stagger" animate in
 // when they enter the viewport — no library needed!
-const revealObserver = new IntersectionObserver(
+const revealObserver = window.revealObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -242,4 +243,15 @@ window.addEventListener("scroll", () => {
   const blob2 = document.querySelector(".blob-2");
   if (blob1) blob1.style.transform = `translateY(${scrollY * 0.08}px)`;
   if (blob2) blob2.style.transform = `translateY(${-scrollY * 0.05}px)`;
+});
+
+
+// ─── 12. IMAGE LOAD OPTIMISATION ───────────────────────
+// Mark each image as loaded so the shimmer stops
+document.querySelectorAll("img").forEach((img) => {
+  if (img.complete) {
+    img.classList.add("loaded");
+  } else {
+    img.addEventListener("load", () => img.classList.add("loaded"));
+  }
 });
