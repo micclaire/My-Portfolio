@@ -1267,7 +1267,7 @@ ul { list-style: none; }
   box-shadow: var(--shadow-hover);
 }
 .detail-gallery img.wide {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
 /* ---- Sidebar ---- */
