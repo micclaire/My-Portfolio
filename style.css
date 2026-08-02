@@ -1368,7 +1368,7 @@ ul { list-style: none; }
   .detail-layout { grid-template-columns: 1fr; }
   .detail-sidebar { position: static; }
   .detail-gallery { grid-template-columns: 1fr; }
-.detail-gallery img.wide { grid-column: span 1;} 
+  .detail-gallery img.wide { grid-column: span 1;} 
 }
 
 @media (max-width: 600px) {
