@@ -109,7 +109,7 @@
     },
     {
       id: 5,
-      title: "Social Media Kit",
+      title: "Editorial Posters",
       category: "Graphic Design",
       type: "Personal Project",
       year: "2023-2026",
