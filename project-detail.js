@@ -11,27 +11,29 @@
    const projects = [
     {
       id: 1,
-      title: "Web-based Catering and Management System",
+      title: "Sun Life CPMA",
+      figmaLink: "https://www.figma.com/proto/5yBnp9vHaAolaG4YtAJs8k/AHO---VUL-Prototypes-Copy?node-id=135-19356&t=kvJEszoQBQpkDIYz-0&scaling=min-zoom&content-scaling=fixed&page-id=44%3A36470&starting-point-node-id=62%3A26767",
       category: "UI/UX",
-      type: "School Project",
-      year: "2025-2026",
-      tools: ["Figma", "C#", "JavaScript", "CSS"],
-      role: "UI Designer & Frontend Developer",
-      coverImage: "images/1.png",
-      intro: "A web-based catering reservation and management system developed as a school project for the PUP University Catering Services Section (UCSS). I focused on designing user-friendly interfaces and building responsive front-end components to improve how users browse, reserve, and manage catering services.",
-      overview: "The project aims to streamline the reservation process for UCSS by providing a centralized platform for viewing menu packages, checking availability, and managing bookings. It addresses common issues such as manual scheduling, lack of real-time updates, and inefficient communication between clients and administrators.",
-      process: "I started by identifying user needs and pain points based on typical reservation workflows. I created wireframes and high-fidelity designs in Figma, focusing on clarity, accessibility, and ease of navigation. On the development side, I implemented the front-end using HTML, CSS, JavaScript, and integrated it with backend functionalities using C#. Key features include reservation forms, menu browsing, availability tracking, and an admin dashboard for managing requests and reports.",
-      outcome: "The system resulted in a more organized and efficient reservation experience, making it easier for users to book services and for administrators to manage requests. Through this project, I strengthened my skills in UI/UX design, front-end development, and working with real-world system requirements. It also gave me hands-on experience in building a functional system from concept to implementation.",      images: [
-        "images/Website Laptop Mockup Instagram Post.png",
-        "images/login.png",
-        "images/available date - homepage (before).png",
-        "images/Client Side, My Reservation.png",
-        "images/view menu packages - breakfast.png",
-        "images/view details - generated orf (page).png",
-        "images/Client Side, ORF.png",
-        "images/Admin Dashboard (Reports).png",
+      type: "Internship",
+      year: "2026",
+      tools: ["Figma", "Miro"],
+      role: "UI/UX Designer",
+      coverImage: "images/Sun Life cover 2.png",
+      intro: "I contributed to the Experience Design team by designing and prototyping interfaces for internal and client-facing digital applications. My work primarily focused on CPMA, Client Portal, and Advisor experiences using Figma and the Helios Design System.",
+      overview: "I worked on various features including Login & Registration, Tiered Registration, Orphan Management, VUL Fund Switch & Allocation, and CCO – Auto Charge Arrangement. My responsibilities involved creating UI designs, interactive prototypes, user flows, and revisions based on stakeholder feedback and business requirements.",
+      process: "I translated requirements and existing user flows into high-fidelity Figma designs, applying Helios components and UX principles to maintain consistency and usability. I collaborated with designers, supervisors, and stakeholders through design reviews, meetings, and UAT preparation, continuously refining the designs based on feedback.",
+      outcome: "Through these projects, I gained hands-on experience designing for real-world enterprise applications and working within an established design system. I strengthened my skills in UI design, prototyping, user-centered design, collaboration, and adapting designs to changing business requirements.",
+      images: [
+        "images/VUL 1.png",
+        "images/VUL 2.png",
+        "images/VUL 3.png",
+        "images/AHO 1.png",
+        "images/AHO 2.png",
+        "images/AHO 3.png",
+        "images/AHO 4.png",
+        "images/AHO 5.png",
       ],
-      prevId: 6,
+      prevId: 7,
       nextId: 2,
     },
     {
@@ -60,6 +62,32 @@
     },
     {
       id: 3,
+      title: "Web-based Catering and Management System",
+      figmaLink: "https://www.figma.com/proto/QI6MOwGMDcUz6IgoFi32RG/GASS-UCSS?node-id=287-1731&t=xxW85eheOEn0b28Z-0&scaling=min-zoom&content-scaling=fixed&page-id=274%3A2506&starting-point-node-id=287%3A1731",
+      category: "UI/UX",
+      type: "School Project",
+      year: "2025-2026",
+      tools: ["Figma", "C#", "JavaScript", "CSS"],
+      role: "UI Designer & Frontend Developer",
+      coverImage: "images/1.png",
+      intro: "A web-based catering reservation and management system developed as a school project for the PUP University Catering Services Section (UCSS). I focused on designing user-friendly interfaces and building responsive front-end components to improve how users browse, reserve, and manage catering services.",
+      overview: "The project aims to streamline the reservation process for UCSS by providing a centralized platform for viewing menu packages, checking availability, and managing bookings. It addresses common issues such as manual scheduling, lack of real-time updates, and inefficient communication between clients and administrators.",
+      process: "I started by identifying user needs and pain points based on typical reservation workflows. I created wireframes and high-fidelity designs in Figma, focusing on clarity, accessibility, and ease of navigation. On the development side, I implemented the front-end using HTML, CSS, JavaScript, and integrated it with backend functionalities using C#. Key features include reservation forms, menu browsing, availability tracking, and an admin dashboard for managing requests and reports.",
+      outcome: "The system resulted in a more organized and efficient reservation experience, making it easier for users to book services and for administrators to manage requests. Through this project, I strengthened my skills in UI/UX design, front-end development, and working with real-world system requirements. It also gave me hands-on experience in building a functional system from concept to implementation.",      images: [
+        "images/Website Laptop Mockup Instagram Post.png",
+        "images/login.png",
+        "images/available date - homepage (before).png",
+        "images/Client Side, My Reservation.png",
+        "images/view menu packages - breakfast.png",
+        "images/view details - generated orf (page).png",
+        "images/Client Side, ORF.png",
+        "images/Admin Dashboard (Reports).png",
+      ],
+      prevId: 2,
+      nextId: 4,
+    },
+    {
+      id: 4,
       title: "Academic Publication Materials",
       category: "Graphic Design",
       type: "School Project",
@@ -83,32 +111,33 @@
         "images/Screenshot 2026-01-15 234013.png",
         "images/CNCP - New Year PubMat.png",
       ],
-      prevId: 2,
-      nextId: 4,
-    },
-    {
-      id: 4,
-      title: "Quizmaster",
-      category: "UI/UX",
-      type: "School Project",
-      year: "2024-2025",
-      tools: ["HTML", "CSS", "JavaScript"],
-      role: "Frontend Developer",
-      coverImage: "images/2.png",
-      intro: "A web-based quiz application developed as a school project for our Web Development subject during 3rd year. Quizmaster allows users to test their knowledge across different subjects through interactive quizzes.",
-      overview: "The goal of Quizmaster was to create a simple and accessible platform where students can engage in self-assessment and practice their understanding of various topics. The app features multiple quizzes categorized by subject, making it easy for users to choose and answer questions based on their interests or needs.",
-      process: "I focused on building the front-end interface using HTML, CSS, and JavaScript. I worked on structuring the quiz flow — from selecting a quiz, answering questions, to displaying results. I ensured the layout was clean and intuitive so users could navigate easily without confusion. Basic interactivity, such as answer selection and score calculation, was implemented using JavaScript.",
-      outcome: "The project resulted in a functional and user-friendly quiz platform that supports interactive learning. It strengthened my front-end development skills, especially in handling user input, dynamic content, and creating smooth user flows. It also gave me experience in building a complete web app as part of a team project.",      images: [
-        "images/Screenshot 2026-03-21 190645.png",
-        "images/Screenshot 2026-03-21 190754.png",
-        "images/Screenshot 2026-03-21 190709.png",
-        "images/Screenshot 2026-03-21 190813.png",
-      ],
       prevId: 3,
       nextId: 5,
     },
     {
       id: 5,
+      title: "PUP HanapHub",
+      figmaLink: "https://www.figma.com/proto/9vXYYtVQpA2QKVOI9u6rlm/PUP-Hanap-Hub?node-id=185-184&t=NRstjD75oSwcV3JS-0&scaling=scale-down&content-scaling=fixed&page-id=185%3A8&starting-point-node-id=185%3A184",
+      category: "UI/UX",
+      type: "School Project",
+      year: "2025",
+      tools: ["Figma"],
+      role: "UI/UX Designer",
+      coverImage: "images/HH cover.png",
+      intro: "The PUP HanapHub is a web-based platform for PUP Main Campus students and faculty to report, track, and claim lost and found items. It provides a centralized system to reduce the time and effort needed to locate misplaced belongings while ensuring items are returned to their rightful owners.",
+      overview: "PUP HanapHub is a proposed web-based platform where users can report lost or found items, search through listings, and submit claims with proof of ownership. The concept uses a peer-to-peer claiming process with notifications and structured item information to help reduce false claims and improve the recovery process.",
+      process: "As the UI/UX Designer, I focused on translating the proposed system requirements into a clear and user-friendly interface, from organizing user flows and information architecture to designing the main screens and interactions. I worked with the team to understand the problem, define key user needs, and create mockups that support reporting, searching, and claiming items.",
+      outcome: "The project resulted in a high-fidelity UI/UX concept demonstrating how a centralized lost-and-found experience could work within PUP Main Campus. While the system was not implemented, the prototype presents a structured user experience and visual direction that could serve as a foundation for future development.",
+      images: [
+        "images/HH 1.png",
+        "images/HH 2.png",
+        "images/HH 3.png",
+      ],
+      prevId: 4,
+      nextId: 6,
+    },
+    {
+      id: 6,
       title: "Editorial Posters",
       category: "Graphic Design",
       type: "Personal Project",
@@ -125,28 +154,28 @@
         "images/fit.png",
         "images/magazine.jpg",
       ],
-      prevId: 4,
-      nextId: 6,
+      prevId: 5,
+      nextId: 7,
     },
     {
-      id: 6,
-      title: "PUP HanapHub",
+      id: 7,
+      title: "Quizmaster",
       category: "UI/UX",
       type: "School Project",
-      year: "2025",
-      tools: ["Figma"],
-      role: "UI/UX Designer",
-      coverImage: "images/HH cover.png",
-      intro: "The PUP HanapHub is a web-based platform for PUP Main Campus students and faculty to report, track, and claim lost and found items. It provides a centralized system to reduce the time and effort needed to locate misplaced belongings while ensuring items are returned to their rightful owners.",
-      overview: "PUP HanapHub is a proposed web-based platform where users can report lost or found items, search through listings, and submit claims with proof of ownership. The concept uses a peer-to-peer claiming process with notifications and structured item information to help reduce false claims and improve the recovery process.",
-      process: "As the UI/UX Designer, I focused on translating the proposed system requirements into a clear and user-friendly interface, from organizing user flows and information architecture to designing the main screens and interactions. I worked with the team to understand the problem, define key user needs, and create mockups that support reporting, searching, and claiming items.",
-      outcome: "The project resulted in a high-fidelity UI/UX concept demonstrating how a centralized lost-and-found experience could work within PUP Main Campus. While the system was not implemented, the prototype presents a structured user experience and visual direction that could serve as a foundation for future development.",
-      images: [
-        "images/HH 1.png",
-        "images/HH 2.png",
-        "images/HH 3.png",
+      year: "2024-2025",
+      tools: ["HTML", "CSS", "JavaScript"],
+      role: "Frontend Developer",
+      coverImage: "images/2.png",
+      intro: "A web-based quiz application developed as a school project for our Web Development subject during 3rd year. Quizmaster allows users to test their knowledge across different subjects through interactive quizzes.",
+      overview: "The goal of Quizmaster was to create a simple and accessible platform where students can engage in self-assessment and practice their understanding of various topics. The app features multiple quizzes categorized by subject, making it easy for users to choose and answer questions based on their interests or needs.",
+      process: "I focused on building the front-end interface using HTML, CSS, and JavaScript. I worked on structuring the quiz flow — from selecting a quiz, answering questions, to displaying results. I ensured the layout was clean and intuitive so users could navigate easily without confusion. Basic interactivity, such as answer selection and score calculation, was implemented using JavaScript.",
+      outcome: "The project resulted in a functional and user-friendly quiz platform that supports interactive learning. It strengthened my front-end development skills, especially in handling user input, dynamic content, and creating smooth user flows. It also gave me experience in building a complete web app as part of a team project.",      images: [
+        "images/Screenshot 2026-03-21 190645.png",
+        "images/Screenshot 2026-03-21 190754.png",
+        "images/Screenshot 2026-03-21 190709.png",
+        "images/Screenshot 2026-03-21 190813.png",
       ],
-      prevId: 5,
+      prevId: 6,
       nextId: 1,
     },
   ];
@@ -186,10 +215,14 @@
     const toolsHTML = project.tools
       .map((t) => `<span class="detail-tool-tag">${t}</span>`)
       .join("");
-  
+
+      const figmaButtonHTML = project.figmaLink
+      ? `<a href="${project.figmaLink}" target="_blank" rel="noopener noreferrer" class="btn btn-primary full-width">View on Figma →</a>`
+      : "";
+
     page.innerHTML = `
       <div class="container">
-        <a href="index.html#portfolio" class="detail-back">
+        <a href="index.html#portfolio" class="detail-back" id="backToPortfolio">
           <span>←</span> Back to all projects
         </a>
   
@@ -263,9 +296,12 @@
               <div class="detail-tools">${toolsHTML}</div>
             </div>
   
-            <a href="index.html#contact" class="btn btn-primary full-width" style="text-align:center;">
+            ${figmaButtonHTML}
+
+            <a href="index.html#contact" class="btn btn-primary full-width" style="text-align:center; margin-top:12px;">
               Work with me →
             </a>
+
           </aside>
   
         </div>
@@ -274,6 +310,13 @@
     // Trigger scroll-reveal on freshly injected elements
     document.querySelectorAll(".reveal").forEach((el) => {
       revealObserver.observe(el);
+    });
+    
+    document.addEventListener("click", (e) => {
+      const backLink = e.target.closest("#backToPortfolio");
+      if (backLink) {
+        sessionStorage.setItem("skipLoader", "true");
+      }
     });
   }
   

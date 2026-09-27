@@ -3,13 +3,22 @@
    ============================================ */
 
 // ─── 1. LOADER ─────────────────────────────────────────
-// Hides the loading screen once the page is ready
+// Hides the loading screen once the page is ready.
+// Skipped entirely when returning from the project detail page.
 window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
-  // Wait a tiny bit so the fill animation finishes
-  setTimeout(() => {
+  if (!loader) return;
+
+  const skipLoader = sessionStorage.getItem("skipLoader");
+
+  if (skipLoader) {
+    sessionStorage.removeItem("skipLoader"); // reset so it works again next visit
     loader.classList.add("hidden");
-  }, 1900);
+  } else {
+    setTimeout(() => {
+      loader.classList.add("hidden");
+    }, 1900);
+  }
 });
 
 
