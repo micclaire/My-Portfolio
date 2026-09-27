@@ -126,29 +126,29 @@
         "images/magazine.jpg",
       ],
       prevId: 4,
+      nextId: 6,
+    },
+    {
+      id: 6,
+      title: "PUP HanapHub",
+      category: "UI/UX",
+      type: "School Project",
+      year: "2025",
+      tools: ["Figma"],
+      role: "UI/UX Designer",
+      coverImage: "images/HH cover.png",
+      intro: "The PUP HanapHub is a web-based platform for PUP Main Campus students and faculty to report, track, and claim lost and found items. It provides a centralized system to reduce the time and effort needed to locate misplaced belongings while ensuring items are returned to their rightful owners.",
+      overview: "PUP HanapHub is a proposed web-based platform where users can report lost or found items, search through listings, and submit claims with proof of ownership. The concept uses a peer-to-peer claiming process with notifications and structured item information to help reduce false claims and improve the recovery process.",
+      process: "As the UI/UX Designer, I focused on translating the proposed system requirements into a clear and user-friendly interface, from organizing user flows and information architecture to designing the main screens and interactions. I worked with the team to understand the problem, define key user needs, and create mockups that support reporting, searching, and claiming items.",
+      outcome: "The project resulted in a high-fidelity UI/UX concept demonstrating how a centralized lost-and-found experience could work within PUP Main Campus. While the system was not implemented, the prototype presents a structured user experience and visual direction that could serve as a foundation for future development.",
+      images: [
+        "images/HH 1.png",
+        "images/HH 2.png",
+        "images/HH 3.png",
+      ],
+      prevId: 5,
       nextId: 1,
     },
-    // {
-    //   id: 6,
-    //   title: "Café Noire — Rebrand",
-    //   category: "Branding",
-    //   type: "Personal Project",
-    //   year: "2025",
-    //   tools: ["Adobe Illustrator", "Adobe InDesign", "Figma"],
-    //   role: "Brand Designer",
-    //   coverImage: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=1200&q=85",
-    //   intro: "A personal rebrand concept for a local specialty coffee shop near my school. I loved the place but felt their visual identity didn't match the quality and mood of the experience.",
-    //   overview: "Café Noire is a cozy, literary specialty coffee shop with dark wood interiors and a jazz playlist. But their branding was generic — a stock logo, inconsistent fonts, and no real color system. I reached out to the owner and offered a concept rebrand as a portfolio piece (with their permission).",
-    //   process: "I started by photographing the space and writing a brand brief based on conversations with the owner. The new direction: 'dark academia meets modern editorial.' Deep espresso tones, cream, a custom serif logotype, and a secondary mark inspired by coffee ring stains. I delivered a logo, color system, business cards, packaging label, and cup sleeve mockups.",
-    //   outcome: "The owner loved it and said they're planning to roll out parts of the rebrand later this year. This was my first real-world-ish project and it taught me how to balance my own creative instincts with a client's practical needs and personality.",
-    //   images: [
-    //     "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80",
-    //     "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
-    //     "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
-    //   ],
-    //   prevId: 5,
-    //   nextId: 1,
-    // },
   ];
   
   /* ---- Render the project ---- */
@@ -216,8 +216,8 @@
               <p>${project.overview}</p>
             </div>
   
-            <div class="detail-gallery reveal">${galleryHTML}</div>
-  
+            <div class="detail-gallery ${project.category === 'UI/UX' ? 'gallery-single-col' : ''} reveal">${galleryHTML}</div>  
+
             <div class="detail-section reveal">
               <h3>Process</h3>
               <p>${project.process}</p>
